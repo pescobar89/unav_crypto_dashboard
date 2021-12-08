@@ -14,7 +14,6 @@ plotly = "5.4.0"
 krakenex = "2.1.0"
 pykrakenapi = "0.2.2"
 numpy = "1.21.0"
-re = "2.2.1"
 pandas = "1.2.5"
 
 [build-system]
