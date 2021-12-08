@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "unav_crypto_dashboard"
+version = "0.1.0"
+description = ""
+authors = ["Pablo Escobar <pabloev89@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+streamlit = "1.2.0"
+plotly = "5.4.0"
+krakenex = "2.1.0"
+pykrakenapi = "0.2.2"
+numpy = "1.21.0"
+re = "2.2.1"
+pandas = "1.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
