@@ -59,7 +59,7 @@ class Calculator:
         vwap_data = vwap_data.groupby('new_time').agg(d)
         # Recalculamos el precio
         vwap_data[price] = vwap_data[pxv]/vwap_data[volume]
-        # Reteamos indice y eliminamos nas
+        # Reseteamos indice y eliminamos nas
         vwap_data = vwap_data[[price, volume]].reset_index()
         # Formateamos la fecha
         vwap_data['time'] = [int(x[-11:-1]) for x in vwap_data['new_time'].astype(str)]
