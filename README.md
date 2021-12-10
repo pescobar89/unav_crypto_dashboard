@@ -1,12 +1,11 @@
 # Proyecto Final de la asignatura Python del Master en Big Data Science de la Universidad de Navarra
 
 # Crypto Dashboard
-Autor: 
-**Pablo Ernesto Escobar Vera**
-Link de la app online:
-[**Crypto Dashboard en share.streamlit**](https://share.streamlit.io/pescobar89/unav_crypto_dashboard/main/unav_crypto_dashboard/app.py)
-Repositorio (memoria incluida en el README.md):
-[**GitHub**](https://github.com/pescobar89/unav_crypto_dashboard)
+Autor: **Pablo Ernesto Escobar Vera**
+
+Link de la app online: [**Crypto Dashboard en share.streamlit**](https://share.streamlit.io/pescobar89/unav_crypto_dashboard/main/unav_crypto_dashboard/app.py)
+
+Repositorio (memoria incluida en el README.md): [**GitHub**](https://github.com/pescobar89/unav_crypto_dashboard)
 
 
 ## Objetivo general
