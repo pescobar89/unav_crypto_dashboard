@@ -5,10 +5,10 @@ import datetime as dt
 
 
 class Wrangler:
-    
+
     def __init__(self):
         pass
-    
+
     @st.cache
     def get_clean_data(self, raw_data):
         clean_data = {}
@@ -23,7 +23,7 @@ class Wrangler:
 
 
 class Calculator:
-    
+
     def __init__(self, data):
         self.data = {}
         self.data['original'] = data
@@ -41,8 +41,8 @@ class Calculator:
         # Seleccionamos las variables
         price_data = price_data[[price, volume]].reset_index()
         # Guardamos
-        self.data['price'] = price_data       
-  
+        self.data['price'] = price_data
+
     def compute_vwap(self, price='price', volume='volume', time=['dtime', 'time'], minutes_interval=15):
         vwap_data = self.data['original'].copy()
         # Generamos los bins
@@ -64,7 +64,7 @@ class Calculator:
         # Formateamos la fecha
         vwap_data['time'] = [int(x[-11:-1]) for x in vwap_data['new_time'].astype(str)]
         vwap_data['dtime'] = [dt.datetime.utcfromtimestamp(x).strftime('%Y-%m-%d %H:%M:%S') for x in vwap_data['time']]
-        # Aseguramos el orden por fecha 
+        # Aseguramos el orden por fecha
         vwap_data = vwap_data.sort_values('time', ascending=True)
         # Rellenamos los precios vacios
         vwap_data['price'] = vwap_data['price'].fillna(method='ffill')
