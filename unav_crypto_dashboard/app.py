@@ -132,9 +132,13 @@ def main():
             ),
             row=2, col=1)
         fig['layout'].update(height=600, title=pair)
-        fig['layout']['yaxis1'].update(domain=[0.3, 1])
-        fig['layout']['yaxis2'].update(domain=[0, 0.2])
+        fig['layout']['yaxis1'].update(domain=[0.30, 1])
+        fig['layout']['yaxis2'].update(domain=[0, 0.25])
+        fig['layout']['xaxis2']['title']='Time'
+        fig['layout']['yaxis']['title']='Price'
+        fig['layout']['yaxis2']['title']='Volume'
+        fig.update_xaxes(rangeslider_thickness = 0.01)
+        fig.update_layout(xaxis_rangeslider_visible=False, xaxis2_rangeslider_visible=True)
         st.plotly_chart(fig, use_container_width=True)
-
 
 main()
