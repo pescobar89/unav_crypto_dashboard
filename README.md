@@ -1,6 +1,8 @@
-# Proyecto Final de la asignatura Python del Master en Big Data Science de la Universidad de Navarra
+# Universidad de Navarra
+# Master en Big Data Science
+# Asignatura Python
+# Proyecto Final: Crypto Dashboard
 
-# Crypto Dashboard
 Autor: **Pablo Ernesto Escobar Vera**
 
 Link de la app online: [**Crypto Dashboard en share.streamlit**](https://share.streamlit.io/pescobar89/unav_crypto_dashboard/main/unav_crypto_dashboard/app.py)
@@ -45,12 +47,11 @@ Una vez acabado el desarrollo se subió el proyecto a [**GitHub**](https://githu
 3. Tras esto, aparecerá un selector en el panel principal para **definir el intervalo de tiempo** para calcular el VWAP. Realizar la selección y **automáticamente se mostraran los gráficos**.
 
 
-## Checklist de objetivos del proyecto
+## Checklist de los objetivos especificos
 
 Lectura y representación del movimiento del par de monedas - Máximo (4 puntos). :heavy_check_mark:
 - Descargar datos. Máximo (2 puntos). :heavy_check_mark:
-	* Utilizando la librería Kraken (2 puntos). :heavy_check_mark:
-	https://github.com/veox/python3-krakenex 
+	* Utilizando la librería Kraken (2 puntos). https://github.com/veox/python3-krakenex :heavy_check_mark:
 	* Utilizando descarga directa a través de Pandas (1 punto). https://drive.google.com/uc?id=1eQsiD8Z8wEt1mx9VICzCmIEQufWjaUD-
 	* Descargar directamente y utilizar el csv en local (0 puntos).
 - Graficar cotizaciones. Máximo (2 puntos). :heavy_check_mark:
@@ -70,7 +71,7 @@ Estructuración. Máximo (1 punto). :heavy_check_mark:
 Memoria obligatoria. Máximo (2 puntos). :heavy_check_mark:
 Este documento deberá ser subido a ADI y deberá tener todo lo necesario para comprender el alcance del proyecto y su modo de ejecución. 
 
-Puntación Extra. Máximo (1 punto).
+Puntación Extra. Máximo (1 punto). :heavy_check_mark:
 - Testeo y cobertura (unit-testing, integration-testing) (0,25 puntos)
 - Facilitar los mecanismos para la reproducción del entorno virtual (ya sea con Poetry, Pipenv o pip) (0,25 puntos). :heavy_check_mark:
 - Linting y Formatting (adhesión al estandar PEP-8) (0,25 puntos). :heavy_check_mark:
