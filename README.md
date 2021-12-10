@@ -1,6 +1,4 @@
-# Universidad de Navarra
-# Master en Big Data Science
-# Asignatura Python
+# Universidad de Navarra - Master en Big Data Science - Asignatura Python 
 # Proyecto Final: Crypto Dashboard
 
 Autor: **Pablo Ernesto Escobar Vera**
