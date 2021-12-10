@@ -48,7 +48,7 @@ Una vez acabado el desarrollo se subió el proyecto a [**GitHub**](https://githu
 
 ## Checklist de objetivos del proyecto
 
-Lectura y representación del movimiento del par de monedas - Máximo (4 puntos)
+Lectura y representación del movimiento del par de monedas - Máximo (4 puntos). :heavy_check_mark:
 - Descargar datos. Máximo (2 puntos). :heavy_check_mark:
 	* Utilizando la librería Kraken (2 puntos). :heavy_check_mark:
 	https://github.com/veox/python3-krakenex 
