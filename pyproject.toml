@@ -9,7 +9,7 @@ python = "^3.9"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
-streamlit = "1.2.0"
+streamlit = "^1.2.0"
 plotly = "5.4.0"
 krakenex = "2.1.0"
 pykrakenapi = "0.2.2"
